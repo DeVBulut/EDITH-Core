@@ -1,32 +1,52 @@
-# Prerequisites
-*.d
+# Build and VS junk
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Visual Studio Code
+.vscode/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Rider
+.idea/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Fortran module files
-*.mod
-*.smod
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Logs
+*.log
 
-# Executables
-*.exe
-*.out
-*.app
+# Resharper / Rider / JetBrains
+_ReSharper*/
+*.DotSettings.user
+
+# WPF auto-generated files
+Generated_Code/
+
+# Local test config
+appsettings.*.json
+.env
+
+# Publish output
+publish/
+
+# User secrets
+*.secrets.json
+
+# Image cache / hidden files
+*.sdf
+*.cache
+*.dbmdl
+
+# Optional: if you're using image resources manually managed
+*.pdb
+*.tmp
