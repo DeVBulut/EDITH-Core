@@ -5,9 +5,11 @@
         Height="650"
         Width="400"
         WindowStyle="None"
+        Icon="/Icons/tempIco.png"
         AllowsTransparency="True"
         Background="Transparent"
-        MouseLeftButtonDown="Window_MouseLeftButtonDown">
+        MouseLeftButtonDown="Window_MouseLeftButtonDown"
+>
 
     <Border CornerRadius="3"
             Background="#24292e"

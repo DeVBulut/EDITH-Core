@@ -9,13 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Icons\appicon.ico" />
+    <None Remove="Icons\appicon.png" />
+    <None Remove="Icons\appicon_test.ico" />
     <None Remove="Icons\close.png" />
     <None Remove="Icons\hov_close.png" />
     <None Remove="Icons\hov_minimize.png" />
     <None Remove="Icons\minimize.png" />
+    <None Remove="Icons\tempIco.png" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Icons\appicon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="Icons\close.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
@@ -26,6 +33,9 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
     <Resource Include="Icons\minimize.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\tempIco.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
   </ItemGroup>
