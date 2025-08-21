@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -17,6 +17,14 @@
     <None Remove="Icons\hov_minimize.png" />
     <None Remove="Icons\minimize.png" />
     <None Remove="Icons\tempIco.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Speech" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Windows.Compatibility" Version="8.0.6" />
   </ItemGroup>
 
   <ItemGroup>

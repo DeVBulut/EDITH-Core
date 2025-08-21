@@ -5,9 +5,12 @@ namespace EdithAIAssistant
 {
     public partial class MainWindow : Window
     {
+        private readonly SpeechListener _speechListener = new();
+
         public MainWindow()
         {
             InitializeComponent();
+            _speechListener.Start();
         }
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)
